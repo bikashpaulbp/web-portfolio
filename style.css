@@ -75,3 +75,10 @@ p{
     background-image: url("image/exp-bg.png");
     background-position: left;
 }
+
+.main{
+    width: 1000px ;
+    height: 2100px;
+    margin: auto;
+    border: 10px solid coral;
+}
