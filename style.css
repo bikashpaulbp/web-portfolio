@@ -52,3 +52,26 @@ p{
     background-image: url("image/dream-bg.png");
     background-position: right;
 }
+
+.bottom-left{
+    box-shadow: 10px 10px 40px rgb(0, 255, 0);
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 255, 64), rgb(17, 0, 255));
+    border-image-slice: 1;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.bottom-right{
+    box-shadow: 10px 10px 40px rgb(0, 102, 255);
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 60, 255), rgb(0, 255, 34));
+    border-image-slice: 1;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.bottom-section{
+    background-image: url("image/exp-bg.png");
+    background-position: left;
+}
