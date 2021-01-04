@@ -1,6 +1,39 @@
 body{
+    margin: 0%;
     font-family: 'Redressed', cursive;
 }
+
 .portfolio-highlight{
     color: #0099ff;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.half-upper{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2px;
+    
+}
+
+.half-upper img{
+    width: 100%;
+}
+
+.top-section{
+    height: 500px;
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.fb-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px 30px;
+    background-image: linear-gradient( 100deg, rgb(122, 122, 255), rgb(0, 0, 255));
+    border-radius: 20px;
 }
